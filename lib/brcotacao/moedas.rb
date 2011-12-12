@@ -1,6 +1,13 @@
 # ecoding: utf-8
 module BrCotacao
  
+
+  # Esse Modulo possui os metodos que trazem as cotacoes da Classe moeda que incluir Este moulo
+  # A classe que incluir este modulo precisa instanciar um objeto em @dados que permita trazer
+  # o código da moeda através da chamada @dados.codigo
+  #
+  # Author:: Bruno Vicenzo
+  # Licença:: GPL
   module Moeda
 
     FONTE_INFORMACAO = 'http://www4.bcb.gov.br/Download/fechamento/'.freeze
@@ -8,18 +15,33 @@ module BrCotacao
     POSICAO_VALOR_COMPRA = 4
     POSICAO_VALOR_VENDA  = 5
 
+    # Devolve o valor de compra da moeda no fechamento do dia informado.
+    # Parametros:
+    # * data_pesquisa
+    # Um objeto que represente a data do dia em que se deseja receber o valor de compra da moeda.
+    # Este parametro precisa responder para o metodo strftime
     def compra(data_pesquisa)
       cotacao_encontrada = cotacao(data_pesquisa)
 
       cotacao_encontrada.nil? ? nil : cotacao_encontrada[:compra]
     end
 
+    # Devolve o valor de venda da moeda no fechamento do dia informado.
+    # Parametros:
+    # * data_pesquisa
+    # Um objeto que represente a data do dia em que se deseja receber o valor de venda da moeda.
+    # Este parametro precisa responder para o metodo strftime
     def venda(data_pesquisa)
       cotacao_encontrada = cotacao(data_pesquisa)
 
       cotacao_encontrada.nil? ? nil : cotacao_encontrada[:venda]
     end
 
+    # Devolve o valor de compra e venda em um Hash da moeda no fechamento do dia informado.
+    # Parametros:
+    # * data_pesquisa
+    # Um objeto que represente a data do dia em que se deseja receber o valor de compra da moeda.
+    # Este parametro precisa responder para o metodo strftime
     def cotacao(data_pesquisa)
       cotacoes_moeda = dados_cotacoes(data_pesquisa).detect{|dado| dado.first.eql? @dados.codigo}
 
@@ -27,6 +49,15 @@ module BrCotacao
     end
   
     private 
+    
+    # Devolve as cotacoes das moedas em uma matriz onde cada linha contém:
+    # * o código da moeda;
+    # * o valor de compra da moeda;
+    # * e o valor de venda da moeda.
+    # Parametros:
+    # * data_pesquisa
+    # Um objeto que represente a data do dia em que se deseja receber o valor de compra da moeda.
+    # Este parametro precisa responder para o metodo strftime
     def dados_cotacoes(data_pesquisa)
       begin
         arquivo_baixar       = data_pesquisa.strftime("%Y%m%d.csv")

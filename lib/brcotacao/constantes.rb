@@ -1,5 +1,10 @@
 # coding: utf-8
 module BrCotacao
+  # Modulo que contém as constantes com informações sobre as moedas retiradas do site do banco central
+  # fonte: http://www4.bcb.gov.br/pec/taxas/batch/tabmoedas.asp?id=tabmoeda
+  #
+  # Author::   Bruno Vicenzo
+  # Licença::  GPL
   module Constantes
   
     AFEGANE_AFEGANIST = {:codigo => '005', :nome => 'AFEGANE AFEGANIST', :simbolo => 'AFN',     :codigo_pais => '0132', :pais => 'AFEGANISTAO',               :tipo => 'A'}
