@@ -8,3 +8,26 @@ Basicamente, é um conjunto de classes que permite obter os valores de compra e 
 
 São as moedas disponibilizadas pelo Banco Central do Brasil na tabela encontrada no seguinte endereço: http://www4.bcb.gov.br/pec/taxas/batch/tabmoedas.asp?id=tabmoeda
 Sendo que as moedas com data de Exclusão do Ptax não entraram na gem.
+
+## Como instalar?
+
+gem install brcotacao
+
+## como usar em um programa ruby?
+
+require 'rubygems' (ruby 1.8.7)
+require 'brcotacao'
+require 'date' # pode usar qualquer metodo que retorne a data que precise.
+
+uma_data = Date.new(2011, 12, 9) # data de fechamento qualquer
+dola_americano = BrCotacao::DolarDosEua.new
+euro           = BrCotacao::Euro.new
+
+dolar_americano.cotacao(uma_data) # => {:compra => 1.8123, :venda => 1.813}
+dolar_americano.compra(uma_data)  # => 1.8123
+dolar_americano.venda(uma_data)   # => 1.813
+
+euro = BrCotacao::Euro.new
+euro.cotacao(uma_data) # => {:compra => 2.423, :venda => 2.4242}
+euro.compra(uma_data)  # => 2.423
+euro.venda(uma_data)   # => 2.4242
