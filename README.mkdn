@@ -35,8 +35,6 @@ dolar_americano.venda(uma_data)   # => 1.813
 
 euro           = BrCotacao::Euro.new
 
-euro = BrCotacao::Euro.new
-
 euro.cotacao(uma_data) # => {:compra => 2.423, :venda => 2.4242}
 
 euro.compra(uma_data)  # => 2.423
