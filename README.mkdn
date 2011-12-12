@@ -40,3 +40,7 @@ euro.cotacao(uma_data) # => {:compra => 2.423, :venda => 2.4242}
 euro.compra(uma_data)  # => 2.423
 
 euro.venda(uma_data)   # => 2.4242
+
+
+## Documentação
+ A documentação, atualmente, encontra-se em http://brcotacaodoc.brunovicenzo.com/
