@@ -1,0 +1,1611 @@
+---
+- :classe: KwanzaAngola
+  :constante:
+    :nome: KWANZA_ANGOLA
+    :dados:
+      :codigo: '635'
+      :nome: KWANZA/ANGOLA
+      :simbolo: AOA
+      :codigo_pais: '0400'
+      :pais: ANGOLA
+      :tipo: A
+- :classe: RupiaNepal
+  :constante:
+    :nome: RUPIA_NEPAL
+    :dados:
+      :codigo: '845'
+      :nome: RUPIA/NEPAL
+      :simbolo: NPR
+      :codigo_pais: '5177'
+      :pais: NEPAL
+      :tipo: A
+- :classe: UnidFomentoChil
+  :constante:
+    :nome: UNID_FOMENTO_CHIL
+    :dados:
+      :codigo: '916'
+      :nome: UNID FOMENTO CHIL
+      :simbolo: CLF
+      :codigo_pais: '1589'
+      :pais: CHILE
+      :tipo: A
+- :classe: FrancoCfaBeac
+  :constante:
+    :nome: FRANCO_CFA_BEAC
+    :dados:
+      :codigo: '370'
+      :nome: FRANCO CFA BEAC
+      :simbolo: XAF
+      :codigo_pais: '0000'
+      :pais: INDEFINIDO
+      :tipo: A
+- :classe: SomUzbequistao
+  :constante:
+    :nome: SOM_UZBEQUISTAO
+    :dados:
+      :codigo: '893'
+      :nome: SOM UZBEQUISTAO
+      :simbolo: UZS
+      :codigo_pais: '8478'
+      :pais: UZBEQUISTAO, REPUBLICA DO
+      :tipo: A
+- :classe: LevBulgariaRep
+  :constante:
+    :nome: LEV_BULGARIA_REP
+    :dados:
+      :codigo: '510'
+      :nome: LEV/BULGARIA, REP
+      :simbolo: BGN
+      :codigo_pais: '1112'
+      :pais: BULGARIA, REPUBLICA DA
+      :tipo: A
+- :classe: CoroaIslndIslan
+  :constante:
+    :nome: COROA_ISLND_ISLAN
+    :dados:
+      :codigo: '060'
+      :nome: COROA ISLND/ISLAN
+      :simbolo: ISK
+      :codigo_pais: '3794'
+      :pais: ISLANDIA
+      :tipo: A
+- :classe: DinarServioServ
+  :constante:
+    :nome: DINAR_SERVIO_SERV
+    :dados:
+      :codigo: '133'
+      :nome: DINAR SERVIO SERV
+      :simbolo: RSD
+      :codigo_pais: '7370'
+      :pais: SERVIA
+      :tipo: A
+- :classe: LibraStaHelena
+  :constante:
+    :nome: LIBRA_STA_HELENA
+    :dados:
+      :codigo: '570'
+      :nome: LIBRA/STA HELENA
+      :simbolo: SHP
+      :codigo_pais: '7102'
+      :pais: SANTA HELENA
+      :tipo: B
+- :classe: FrancoComores
+  :constante:
+    :nome: FRANCO_COMORES
+    :dados:
+      :codigo: '368'
+      :nome: FRANCO/COMORES
+      :simbolo: KMF
+      :codigo_pais: '1732'
+      :pais: COMORES, ILHAS
+      :tipo: A
+- :classe: ColonCostaRica
+  :constante:
+    :nome: COLON_COSTA_RICA
+    :dados:
+      :codigo: '040'
+      :nome: COLON/COSTA RICA
+      :simbolo: CRC
+      :codigo_pais: '1961'
+      :pais: COSTA RICA
+      :tipo: A
+- :classe: DolarLiberia
+  :constante:
+    :nome: DOLAR_LIBERIA
+    :dados:
+      :codigo: '235'
+      :nome: DOLAR LIBERIA
+      :simbolo: LRD
+      :codigo_pais: '4340'
+      :pais: LIBERIA
+      :tipo: A
+- :classe: ForintHungria
+  :constante:
+    :nome: FORINT_HUNGRIA
+    :dados:
+      :codigo: '345'
+      :nome: FORINT/HUNGRIA
+      :simbolo: HUF
+      :codigo_pais: '3557'
+      :pais: HUNGRIA, REPUBLICA DA
+      :tipo: A
+- :classe: NovoManatTurcom
+  :constante:
+    :nome: NOVO_MANAT_TURCOM
+    :dados:
+      :codigo: '608'
+      :nome: NOVO MANAT TURCOM
+      :simbolo: TMT
+      :codigo_pais: '8249'
+      :pais: TURCOMENISTAO, REPUBLICA
+      :tipo: A
+- :classe: SomoniTadjiquist
+  :constante:
+    :nome: SOMONI_TADJIQUIST
+    :dados:
+      :codigo: '835'
+      :nome: SOMONI TADJIQUIST
+      :simbolo: TJS
+      :codigo_pais: '7722'
+      :pais: TADJIQUISTAO, REPUBLICA D
+      :tipo: A
+- :classe: RialOma
+  :constante:
+    :nome: RIAL_OMA
+    :dados:
+      :codigo: '805'
+      :nome: RIAL/OMA
+      :simbolo: OMR
+      :codigo_pais: '5568'
+      :pais: OMA
+      :tipo: A
+- :classe: RielCamboja
+  :constante:
+    :nome: RIEL_CAMBOJA
+    :dados:
+      :codigo: '825'
+      :nome: RIEL/CAMBOJA
+      :simbolo: KHR
+      :codigo_pais: '1414'
+      :pais: CAMBOJA
+      :tipo: A
+- :classe: NakfaEritreia
+  :constante:
+    :nome: NAKFA_ERITREIA
+    :dados:
+      :codigo: '625'
+      :nome: NAKFA ERITREIA
+      :simbolo: ERN
+      :codigo_pais: '4880'
+      :pais: MAURITANIA
+      :tipo: A
+- :classe: RandeAfricaSul
+  :constante:
+    :nome: RANDE_AFRICA_SUL
+    :dados:
+      :codigo: '785'
+      :nome: RANDE/AFRICA SUL
+      :simbolo: ZAR
+      :codigo_pais: '7560'
+      :pais: AFRICA DO SUL
+      :tipo: A
+- :classe: BirrEtiopia
+  :constante:
+    :nome: BIRR_ETIOPIA
+    :dados:
+      :codigo: '009'
+      :nome: BIRR/ETIOPIA
+      :simbolo: ETB
+      :codigo_pais: '2534'
+      :pais: ETIOPIA
+      :tipo: A
+- :classe: DobraSTomePrin
+  :constante:
+    :nome: DOBRA_S_TOME_PRIN
+    :dados:
+      :codigo: '148'
+      :nome: DOBRA S TOME PRIN
+      :simbolo: STD
+      :codigo_pais: '6653'
+      :pais: ZIMBABUE
+      :tipo: A
+- :classe: DinarMacedonia
+  :constante:
+    :nome: DINAR_MACEDONIA
+    :dados:
+      :codigo: '132'
+      :nome: DINAR/MACEDONIA
+      :simbolo: MKD
+      :codigo_pais: '4499'
+      :pais: MACEDONIA, ANT.REP.IUGOSL
+      :tipo: A
+- :classe: LibraEsterlina
+  :constante:
+    :nome: LIBRA_ESTERLINA
+    :dados:
+      :codigo: '540'
+      :nome: LIBRA ESTERLINA
+      :simbolo: GBP
+      :codigo_pais: '6289'
+      :pais: REINO UNIDO
+      :tipo: B
+- :classe: DireitoEspecial
+  :constante:
+    :nome: DIREITO_ESPECIAL
+    :dados:
+      :codigo: '138'
+      :nome: DIREITO ESPECIAL
+      :simbolo: SDR
+      :codigo_pais: '0000'
+      :pais: INDEFINIDO
+      :tipo: B
+- :classe: DinarTunisia
+  :constante:
+    :nome: DINAR_TUNISIA
+    :dados:
+      :codigo: '135'
+      :nome: DINAR/TUNISIA
+      :simbolo: TND
+      :codigo_pais: '8206'
+      :pais: TUNISIA
+      :tipo: A
+- :classe: CoroaTcheca
+  :constante:
+    :nome: COROA_TCHECA
+    :dados:
+      :codigo: '075'
+      :nome: COROA TCHECA
+      :simbolo: CZK
+      :codigo_pais: '7919'
+      :pais: TCHECA, REPUBLICA
+      :tipo: A
+- :classe: RupiaSriLanka
+  :constante:
+    :nome: RUPIA_SRI_LANKA
+    :dados:
+      :codigo: '855'
+      :nome: RUPIA/SRI LANKA
+      :simbolo: LKR
+      :codigo_pais: '7501'
+      :pais: SRI LANKA
+      :tipo: A
+- :classe: XelimSomalia
+  :constante:
+    :nome: XELIM_SOMALIA
+    :dados:
+      :codigo: '960'
+      :nome: XELIM/SOMALIA
+      :simbolo: SOS
+      :codigo_pais: '7480'
+      :pais: SOMALIA
+      :tipo: A
+- :classe: PatacaMacau
+  :constante:
+    :nome: PATACA_MACAU
+    :dados:
+      :codigo: '685'
+      :nome: PATACA/MACAU
+      :simbolo: MOP
+      :codigo_pais: '4472'
+      :pais: MACAU
+      :tipo: A
+- :classe: DirhamMarrocos
+  :constante:
+    :nome: DIRHAM_MARROCOS
+    :dados:
+      :codigo: '139'
+      :nome: DIRHAM/MARROCOS
+      :simbolo: MAD
+      :codigo_pais: '4740'
+      :pais: MARROCOS
+      :tipo: A
+- :classe: GuaraniParaguai
+  :constante:
+    :nome: GUARANI_PARAGUAI
+    :dados:
+      :codigo: '450'
+      :nome: GUARANI/PARAGUAI
+      :simbolo: PYG
+      :codigo_pais: '5860'
+      :pais: PARAGUAI
+      :tipo: A
+- :classe: PesoUruguaio
+  :constante:
+    :nome: PESO_URUGUAIO
+    :dados:
+      :codigo: '745'
+      :nome: PESO/URUGUAIO
+      :simbolo: UYU
+      :codigo_pais: '8451'
+      :pais: URUGUAI
+      :tipo: A
+- :classe: LariGeorgia
+  :constante:
+    :nome: LARI_GEORGIA
+    :dados:
+      :codigo: '482'
+      :nome: LARI GEORGIA
+      :simbolo: GEL
+      :codigo_pais: '2917'
+      :pais: GEORGIA, REPUBLICA DA
+      :tipo: A
+- :classe: RupiaMauricio
+  :constante:
+    :nome: RUPIA_MAURICIO
+    :dados:
+      :codigo: '840'
+      :nome: RUPIA/MAURICIO
+      :simbolo: MUR
+      :codigo_pais: '4855'
+      :pais: MAURICIO
+      :tipo: A
+- :classe: DinarKwait
+  :constante:
+    :nome: DINAR_KWAIT
+    :dados:
+      :codigo: '100'
+      :nome: DINAR/KWAIT
+      :simbolo: KWD
+      :codigo_pais: '1988'
+      :pais: COVEITE
+      :tipo: A
+- :classe: DolarCanadense
+  :constante:
+    :nome: DOLAR_CANADENSE
+    :dados:
+      :codigo: '165'
+      :nome: DOLAR CANADENSE
+      :simbolo: CAD
+      :codigo_pais: '1490'
+      :pais: CANADA
+      :tipo: A
+- :classe: DolarAustraliano
+  :constante:
+    :nome: DOLAR_AUSTRALIANO
+    :dados:
+      :codigo: '150'
+      :nome: DOLAR AUSTRALIANO
+      :simbolo: AUD
+      :codigo_pais: '0698'
+      :pais: AUSTRALIA
+      :tipo: B
+- :classe: DolarOuro
+  :constante:
+    :nome: DOLAR_OURO
+    :dados:
+      :codigo: '998'
+      :nome: DOLAR OURO
+      :simbolo: XAU
+      :codigo_pais: '0000'
+      :pais: INDEFINIDO
+      :tipo: A
+- :classe: RealBrasil
+  :constante:
+    :nome: REAL_BRASIL
+    :dados:
+      :codigo: '790'
+      :nome: REAL BRASIL
+      :simbolo: BRL
+      :codigo_pais: '1058'
+      :pais: BRASIL
+      :tipo: A
+- :classe: DolarIlSalomao
+  :constante:
+    :nome: DOLAR_IL_SALOMAO
+    :dados:
+      :codigo: '250'
+      :nome: DOLAR/IL SALOMAO
+      :simbolo: SBD
+      :codigo_pais: '6777'
+      :pais: SALOMAO, ILHAS
+      :tipo: A
+- :classe: NovoLeuRomenia
+  :constante:
+    :nome: NOVO_LEU_ROMENIA
+    :dados:
+      :codigo: '506'
+      :nome: NOVO LEU/ROMENIA
+      :simbolo: RON
+      :codigo_pais: '6700'
+      :pais: ROMENIA
+      :tipo: A
+- :classe: DolarCingapura
+  :constante:
+    :nome: DOLAR_CINGAPURA
+    :dados:
+      :codigo: '195'
+      :nome: DOLAR/CINGAPURA
+      :simbolo: SGD
+      :codigo_pais: '7412'
+      :pais: CINGAPURA
+      :tipo: A
+- :classe: CordobaOuro
+  :constante:
+    :nome: CORDOBA_OURO
+    :dados:
+      :codigo: '051'
+      :nome: CORDOBA OURO
+      :simbolo: NIO
+      :codigo_pais: '5215'
+      :pais: NICARAGUA
+      :tipo: A
+- :classe: DolarZimbabue
+  :constante:
+    :nome: DOLAR_ZIMBABUE
+    :dados:
+      :codigo: '217'
+      :nome: DOLAR ZIMBABUE
+      :simbolo: ZWL
+      :codigo_pais: '6653'
+      :pais: ZIMBABUE
+      :tipo: A
+- :classe: RupiaSeycheles
+  :constante:
+    :nome: RUPIA_SEYCHELES
+    :dados:
+      :codigo: '850'
+      :nome: RUPIA/SEYCHELES
+      :simbolo: SCR
+      :codigo_pais: '7315'
+      :pais: SEYCHELLES
+      :tipo: A
+- :classe: BalboaPanama
+  :constante:
+    :nome: BALBOA_PANAMA
+    :dados:
+      :codigo: '020'
+      :nome: BALBOA/PANAMA
+      :simbolo: PAB
+      :codigo_pais: '5800'
+      :pais: PANAMA
+      :tipo: A
+- :classe: LeuMoldaviaRep
+  :constante:
+    :nome: LEU_MOLDAVIA_REP
+    :dados:
+      :codigo: '503'
+      :nome: LEU/MOLDAVIA, REP
+      :simbolo: MDL
+      :codigo_pais: '4944'
+      :pais: MOLDAVIA, REPUBLICA DA
+      :tipo: A
+- :classe: DalasiGambia
+  :constante:
+    :nome: DALASI_GAMBIA
+    :dados:
+      :codigo: '090'
+      :nome: DALASI/GAMBIA
+      :simbolo: GMD
+      :codigo_pais: '2852'
+      :pais: GAMBIA
+      :tipo: A
+- :classe: GourdeHaiti
+  :constante:
+    :nome: GOURDE_HAITI
+    :dados:
+      :codigo: '440'
+      :nome: GOURDE/HAITI
+      :simbolo: HTG
+      :codigo_pais: '3417'
+      :pais: HAITI
+      :tipo: A
+- :classe: DolarNovaZeland
+  :constante:
+    :nome: DOLAR_NOVA_ZELAND
+    :dados:
+      :codigo: '245'
+      :nome: DOLAR/NOVA ZELAND
+      :simbolo: NZD
+      :codigo_pais: '5487'
+      :pais: NOVA ZELANDIA
+      :tipo: B
+- :classe: NovaMeticalMoca
+  :constante:
+    :nome: NOVA_METICAL_MOCA
+    :dados:
+      :codigo: '622'
+      :nome: NOVA METICAL/MOCA
+      :simbolo: MZN
+      :codigo_pais: '5053'
+      :pais: MOCAMBIQUE
+      :tipo: A
+- :classe: FrancoDjibuti
+  :constante:
+    :nome: FRANCO_DJIBUTI
+    :dados:
+      :codigo: '390'
+      :nome: FRANCO/DJIBUTI
+      :simbolo: DJF
+      :codigo_pais: '7838'
+      :pais: DJIBUTI
+      :tipo: A
+- :classe: DolarJamaica
+  :constante:
+    :nome: DOLAR_JAMAICA
+    :dados:
+      :codigo: '230'
+      :nome: DOLAR/JAMAICA
+      :simbolo: JMD
+      :codigo_pais: '3913'
+      :pais: JAMAICA
+      :tipo: A
+- :classe: RufiaMaldivas
+  :constante:
+    :nome: RUFIA_MALDIVAS
+    :dados:
+      :codigo: '870'
+      :nome: RUFIA/MALDIVAS
+      :simbolo: MVR
+      :codigo_pais: '4618'
+      :pais: MALDIVAS
+      :tipo: A
+- :classe: RialArabSaudita
+  :constante:
+    :nome: RIAL_ARAB_SAUDITA
+    :dados:
+      :codigo: '820'
+      :nome: RIAL/ARAB SAUDITA
+      :simbolo: SAR
+      :codigo_pais: '0531'
+      :pais: ARABIA SAUDITA
+      :tipo: A
+- :classe: LibraLibano
+  :constante:
+    :nome: LIBRA_LIBANO
+    :dados:
+      :codigo: '560'
+      :nome: LIBRA/LIBANO
+      :simbolo: LBP
+      :codigo_pais: '4316'
+      :pais: LIBANO
+      :tipo: A
+- :classe: DolarCayman
+  :constante:
+    :nome: DOLAR_CAYMAN
+    :dados:
+      :codigo: '190'
+      :nome: DOLAR/CAYMAN
+      :simbolo: KYD
+      :codigo_pais: '1376'
+      :pais: CAYMAN, ILHAS
+      :tipo: B
+- :classe: DolarDaGuiana
+  :constante:
+    :nome: DOLAR_DA_GUIANA
+    :dados:
+      :codigo: '170'
+      :nome: DOLAR DA GUIANA
+      :simbolo: GYD
+      :codigo_pais: '3379'
+      :pais: GUIANA
+      :tipo: A
+- :classe: RialIranRep
+  :constante:
+    :nome: RIAL_IRAN_REP
+    :dados:
+      :codigo: '815'
+      :nome: RIAL/IRAN, REP
+      :simbolo: IRR
+      :codigo_pais: '3727'
+      :pais: IRA, REPUBLICA ISLAMICA D
+      :tipo: A
+- :classe: DinarJordania
+  :constante:
+    :nome: DINAR_JORDANIA
+    :dados:
+      :codigo: '125'
+      :nome: DINAR/JORDANIA
+      :simbolo: JOD
+      :codigo_pais: '4030'
+      :pais: JORDANIA
+      :tipo: A
+- :classe: DolarHongKong
+  :constante:
+    :nome: DOLAR_HONG_KONG
+    :dados:
+      :codigo: '205'
+      :nome: DOLAR/HONG-KONG
+      :simbolo: HKD
+      :codigo_pais: '3514'
+      :pais: HONG KONG
+      :tipo: A
+- :classe: QuipeLaosRep
+  :constante:
+    :nome: QUIPE_LAOS_REP
+    :dados:
+      :codigo: '780'
+      :nome: QUIPE/LAOS, REP
+      :simbolo: LAK
+      :codigo_pais: '4200'
+      :pais: LAOS, REP.POP.DEMOCR.DO
+      :tipo: A
+- :classe: NovaLiraTurquia
+  :constante:
+    :nome: NOVA_LIRA_TURQUIA
+    :dados:
+      :codigo: '642'
+      :nome: NOVA LIRA/TURQUIA
+      :simbolo: TRY
+      :codigo_pais: '8273'
+      :pais: TURQUIA
+      :tipo: A
+- :classe: DolarSuriname
+  :constante:
+    :nome: DOLAR_SURINAME
+    :dados:
+      :codigo: '255'
+      :nome: DOLAR/SURINAME
+      :simbolo: SRD
+      :codigo_pais: '7706'
+      :pais: SURINAME
+      :tipo: A
+- :classe: MarcoConvBosnia
+  :constante:
+    :nome: MARCO_CONV_BOSNIA
+    :dados:
+      :codigo: '612'
+      :nome: MARCO CONV BOSNIA
+      :simbolo: BAM
+      :codigo_pais: '0981'
+      :pais: BOSNIA-HERZEGOVINA (REPUB
+      :tipo: A
+- :classe: TacaBangladesh
+  :constante:
+    :nome: TACA_BANGLADESH
+    :dados:
+      :codigo: '905'
+      :nome: TACA/BANGLADESH
+      :simbolo: BDT
+      :codigo_pais: '0817'
+      :pais: BANGLADESH
+      :tipo: A
+- :classe: DirhamEmirArabe
+  :constante:
+    :nome: DIRHAM_EMIR_ARABE
+    :dados:
+      :codigo: '145'
+      :nome: DIRHAM/EMIR.ARABE
+      :simbolo: AED
+      :codigo_pais: '2445'
+      :pais: EMIRADOS ARABES UNIDOS
+      :tipo: A
+- :classe: DinarLibia
+  :constante:
+    :nome: DINAR_LIBIA
+    :dados:
+      :codigo: '130'
+      :nome: DINAR/LIBIA
+      :simbolo: LYD
+      :codigo_pais: '4383'
+      :pais: LIBIA
+      :tipo: A
+- :classe: DongueVietnan
+  :constante:
+    :nome: DONGUE_VIETNAN
+    :dados:
+      :codigo: '260'
+      :nome: DONGUE/VIETNAN
+      :simbolo: VND
+      :codigo_pais: '8583'
+      :pais: VIETNA
+      :tipo: A
+- :classe: AriaryMadagascar
+  :constante:
+    :nome: ARIARY_MADAGASCAR
+    :dados:
+      :codigo: '406'
+      :nome: ARIARY MADAGASCAR
+      :simbolo: MGA
+      :codigo_pais: '4502'
+      :pais: MADAGASCAR
+      :tipo: A
+- :classe: DolarBrunei
+  :constante:
+    :nome: DOLAR_BRUNEI
+    :dados:
+      :codigo: '185'
+      :nome: DOLAR BRUNEI
+      :simbolo: BND
+      :codigo_pais: '1082'
+      :pais: BRUNEI
+      :tipo: A
+- :classe: DinarArgelino
+  :constante:
+    :nome: DINAR_ARGELINO
+    :dados:
+      :codigo: '095'
+      :nome: DINAR ARGELINO
+      :simbolo: DZD
+      :codigo_pais: '0590'
+      :pais: ARGELIA
+      :tipo: A
+- :classe: PesoMexico
+  :constante:
+    :nome: PESO_MEXICO
+    :dados:
+      :codigo: '741'
+      :nome: PESO/MEXICO
+      :simbolo: MXN
+      :codigo_pais: '4936'
+      :pais: MEXICO
+      :tipo: A
+- :classe: DolarBarbados
+  :constante:
+    :nome: DOLAR_BARBADOS
+    :dados:
+      :codigo: '175'
+      :nome: DOLAR/BARBADOS
+      :simbolo: BBD
+      :codigo_pais: '0833'
+      :pais: BARBADOS
+      :tipo: A
+- :classe: PaangaTonga
+  :constante:
+    :nome: PAANGA_TONGA
+    :dados:
+      :codigo: '680'
+      :nome: PAANGA/TONGA
+      :simbolo: TOP
+      :codigo_pais: '8109'
+      :pais: TONGA
+      :tipo: B
+- :classe: FrancoRuanda
+  :constante:
+    :nome: FRANCO_RUANDA
+    :dados:
+      :codigo: '420'
+      :nome: FRANCO/RUANDA
+      :simbolo: RWF
+      :codigo_pais: '6750'
+      :pais: RUANDA
+      :tipo: A
+- :classe: PulaBotswana
+  :constante:
+    :nome: PULA_BOTSWANA
+    :dados:
+      :codigo: '755'
+      :nome: PULA/BOTSWANA
+      :simbolo: BWP
+      :codigo_pais: '1015'
+      :pais: BOTSUANA
+      :tipo: B
+- :classe: FrancoGuine
+  :constante:
+    :nome: FRANCO_GUINE
+    :dados:
+      :codigo: '398'
+      :nome: FRANCO/GUINE
+      :simbolo: GNF
+      :codigo_pais: '3298'
+      :pais: GUINE
+      :tipo: A
+- :classe: DinarBahrein
+  :constante:
+    :nome: DINAR_BAHREIN
+    :dados:
+      :codigo: '105'
+      :nome: DINAR/BAHREIN
+      :simbolo: BHD
+      :codigo_pais: '0809'
+      :pais: BAHREIN, ILHAS
+      :tipo: A
+- :classe: HyrvniaUcrania
+  :constante:
+    :nome: HYRVNIA_UCRANIA
+    :dados:
+      :codigo: '460'
+      :nome: HYRVNIA UCRANIA
+      :simbolo: UAH
+      :codigo_pais: '8311'
+      :pais: UCRANIA
+      :tipo: A
+- :classe: BathTailandia
+  :constante:
+    :nome: BATH_TAILANDIA
+    :dados:
+      :codigo: '015'
+      :nome: BATH/TAILANDIA
+      :simbolo: THB
+      :codigo_pais: '7765'
+      :pais: TAILANDIA
+      :tipo: A
+- :classe: RubloRussia
+  :constante:
+    :nome: RUBLO_RUSSIA
+    :dados:
+      :codigo: '830'
+      :nome: RUBLO/RUSSIA
+      :simbolo: RUB
+      :codigo_pais: '6769'
+      :pais: RUSSIA, FEDERACAO DA
+      :tipo: A
+- :classe: BolivianoBolivia
+  :constante:
+    :nome: BOLIVIANO_BOLIVIA
+    :dados:
+      :codigo: '030'
+      :nome: BOLIVIANO/BOLIVIA
+      :simbolo: BOB
+      :codigo_pais: '0973'
+      :pais: BOLIVIA, ESTADO PLURINACI
+      :tipo: A
+- :classe: FrancoBurundi
+  :constante:
+    :nome: FRANCO_BURUNDI
+    :dados:
+      :codigo: '365'
+      :nome: FRANCO/BURUNDI
+      :simbolo: BIF
+      :codigo_pais: '1155'
+      :pais: BURUNDI
+      :tipo: A
+- :classe: PesoCuba
+  :constante:
+    :nome: PESO_CUBA
+    :dados:
+      :codigo: '725'
+      :nome: PESO/CUBA
+      :simbolo: CUP
+      :codigo_pais: '1996'
+      :pais: CUBA
+      :tipo: A
+- :classe: RialIemen
+  :constante:
+    :nome: RIAL_IEMEN
+    :dados:
+      :codigo: '810'
+      :nome: RIAL/IEMEN
+      :simbolo: YER
+      :codigo_pais: '3573'
+      :pais: IEMEN
+      :tipo: A
+- :classe: PesoColombia
+  :constante:
+    :nome: PESO_COLOMBIA
+    :dados:
+      :codigo: '720'
+      :nome: PESO/COLOMBIA
+      :simbolo: COP
+      :codigo_pais: '1694'
+      :pais: COLOMBIA
+      :tipo: A
+- :classe: CoroaNorueNorue
+  :constante:
+    :nome: COROA_NORUE_NORUE
+    :dados:
+      :codigo: '065'
+      :nome: COROA NORUE/NORUE
+      :simbolo: NOK
+      :codigo_pais: '5380'
+      :pais: NORUEGA
+      :tipo: A
+- :classe: GuilderAntilhas
+  :constante:
+    :nome: GUILDER_ANTILHAS
+    :dados:
+      :codigo: '325'
+      :nome: GUILDER ANTILHAS
+      :simbolo: ANG
+      :codigo_pais: '0477'
+      :pais: ANTILHAS HOLANDESAS
+      :tipo: A
+- :classe: DolarBermudas
+  :constante:
+    :nome: DOLAR_BERMUDAS
+    :dados:
+      :codigo: '160'
+      :nome: DOLAR/BERMUDAS
+      :simbolo: BMD
+      :codigo_pais: '0906'
+      :pais: BERMUDAS
+      :tipo: A
+- :classe: NgultrumButao
+  :constante:
+    :nome: NGULTRUM_BUTAO
+    :dados:
+      :codigo: '665'
+      :nome: NGULTRUM/BUTAO
+      :simbolo: BTN
+      :codigo_pais: '1198'
+      :pais: BUTAO
+      :tipo: A
+- :classe: RupiaPaquistao
+  :constante:
+    :nome: RUPIA_PAQUISTAO
+    :dados:
+      :codigo: '875'
+      :nome: RUPIA/PAQUISTAO
+      :simbolo: PKR
+      :codigo_pais: '5762'
+      :pais: PAQUISTAO
+      :tipo: A
+- :classe: DolarTrinTobag
+  :constante:
+    :nome: DOLAR_TRIN_TOBAG
+    :dados:
+      :codigo: '210'
+      :nome: DOLAR/TRIN. TOBAG
+      :simbolo: TTD
+      :codigo_pais: '8150'
+      :pais: TRINIDAD E TOBAGO
+      :tipo: A
+- :classe: QuetzalGuatemala
+  :constante:
+    :nome: QUETZAL_GUATEMALA
+    :dados:
+      :codigo: '770'
+      :nome: QUETZAL/GUATEMALA
+      :simbolo: GTQ
+      :codigo_pais: '3174'
+      :pais: GUATEMALA
+      :tipo: A
+- :classe: PesoChile
+  :constante:
+    :nome: PESO_CHILE
+    :dados:
+      :codigo: '715'
+      :nome: PESO/CHILE
+      :simbolo: CLP
+      :codigo_pais: '1589'
+      :pais: CHILE
+      :tipo: A
+- :classe: VatuVanuatu
+  :constante:
+    :nome: VATU_VANUATU
+    :dados:
+      :codigo: '920'
+      :nome: VATU VANUATU
+      :simbolo: VUV
+      :codigo_pais: '5517'
+      :pais: VANUATU
+      :tipo: A
+- :classe: LekAlbaniaRep
+  :constante:
+    :nome: LEK_ALBANIA_REP
+    :dados:
+      :codigo: '490'
+      :nome: LEK ALBANIA REP
+      :simbolo: ALL
+      :codigo_pais: '0175'
+      :pais: ALBANIA, REPUBLICA  DA
+      :tipo: A
+- :classe: RupiaIndonesia
+  :constante:
+    :nome: RUPIA_INDONESIA
+    :dados:
+      :codigo: '865'
+      :nome: RUPIA/INDONESIA
+      :simbolo: IDR
+      :codigo_pais: '3654'
+      :pais: INDONESIA
+      :tipo: A
+- :classe: AfeganeAfeganist
+  :constante:
+    :nome: AFEGANE_AFEGANIST
+    :dados:
+      :codigo: '005'
+      :nome: AFEGANE AFEGANIST
+      :simbolo: AFN
+      :codigo_pais: '0132'
+      :pais: AFEGANISTAO
+      :tipo: A
+- :classe: LotiLesoto
+  :constante:
+    :nome: LOTI_LESOTO
+    :dados:
+      :codigo: '603'
+      :nome: LOTI/LESOTO
+      :simbolo: LSL
+      :codigo_pais: '4260'
+      :pais: LESOTO
+      :tipo: A
+- :classe: FrancoCfp
+  :constante:
+    :nome: FRANCO_CFP
+    :dados:
+      :codigo: '380'
+      :nome: FRANCO CFP
+      :simbolo: XPF
+      :codigo_pais: '5991'
+      :pais: POLINESIA FRANCESA
+      :tipo: A
+- :classe: LitaLituania
+  :constante:
+    :nome: LITA_LITUANIA
+    :dados:
+      :codigo: '601'
+      :nome: LITA/LITUANIA
+      :simbolo: LTL
+      :codigo_pais: '4421'
+      :pais: LITUANIA, REPUBLICA DA
+      :tipo: A
+- :classe: RinggitMalasia
+  :constante:
+    :nome: RINGGIT_MALASIA
+    :dados:
+      :codigo: '828'
+      :nome: RINGGIT/MALASIA
+      :simbolo: MYR
+      :codigo_pais: '4553'
+      :pais: MALASIA
+      :tipo: A
+- :classe: EscudoCaboVerde
+  :constante:
+    :nome: ESCUDO_CABO_VERDE
+    :dados:
+      :codigo: '295'
+      :nome: ESCUDO/CABO VERDE
+      :simbolo: CVE
+      :codigo_pais: '1279'
+      :pais: CABO VERDE, REPUBLICA DE
+      :tipo: A
+- :classe: LibraGibraltar
+  :constante:
+    :nome: LIBRA_GIBRALTAR
+    :dados:
+      :codigo: '530'
+      :nome: LIBRA/GIBRALTAR
+      :simbolo: GIP
+      :codigo_pais: '2933'
+      :pais: GIBRALTAR
+      :tipo: B
+- :classe: LatLetoniaRep
+  :constante:
+    :nome: LAT_LETONIA_REP
+    :dados:
+      :codigo: '485'
+      :nome: LAT/LETONIA, REP
+      :simbolo: LVL
+      :codigo_pais: '4278'
+      :pais: LETONIA, REPUBLICA DA
+      :tipo: A
+- :classe: Euro
+  :constante:
+    :nome: EURO
+    :dados:
+      :codigo: '978'
+      :nome: EURO
+      :simbolo: EUR
+      :codigo_pais: '0000'
+      :pais: INDEFINIDO
+      :tipo: B
+- :classe: DolarCaribeOrie
+  :constante:
+    :nome: DOLAR_CARIBE_ORIE
+    :dados:
+      :codigo: '215'
+      :nome: DOLAR CARIBE ORIE
+      :simbolo: XCD
+      :codigo_pais: '0000'
+      :pais: INDEFINIDO
+      :tipo: A
+- :classe: BolivarForteVen
+  :constante:
+    :nome: BOLIVAR_FORTE_VEN
+    :dados:
+      :codigo: '026'
+      :nome: BOLIVAR FORTE/VEN
+      :simbolo: VEF
+      :codigo_pais: '8508'
+      :pais: VENEZUELA
+      :tipo: A
+- :classe: TengeCazaquistao
+  :constante:
+    :nome: TENGE_CAZAQUISTAO
+    :dados:
+      :codigo: '913'
+      :nome: TENGE CAZAQUISTAO
+      :simbolo: KZT
+      :codigo_pais: '1538'
+      :pais: CAZAQUISTAO, REPUBLICA DO
+      :tipo: A
+- :classe: PesoArgentina
+  :constante:
+    :nome: PESO_ARGENTINA
+    :dados:
+      :codigo: '706'
+      :nome: PESO/ARGENTINA
+      :simbolo: ARS
+      :codigo_pais: '0639'
+      :pais: ARGENTINA
+      :tipo: A
+- :classe: LempiraHonduras
+  :constante:
+    :nome: LEMPIRA_HONDURAS
+    :dados:
+      :codigo: '495'
+      :nome: LEMPIRA/HONDURAS
+      :simbolo: HNL
+      :codigo_pais: '3450'
+      :pais: HONDURAS
+      :tipo: A
+- :classe: DolarDaNamibia
+  :constante:
+    :nome: DOLAR_DA_NAMIBIA
+    :dados:
+      :codigo: '173'
+      :nome: DOLAR DA NAMIBIA
+      :simbolo: NAD
+      :codigo_pais: '5070'
+      :pais: NAMIBIA
+      :tipo: A
+- :classe: FrancoCfaBceao
+  :constante:
+    :nome: FRANCO_CFA_BCEAO
+    :dados:
+      :codigo: '372'
+      :nome: FRANCO CFA BCEAO
+      :simbolo: XOF
+      :codigo_pais: '0000'
+      :pais: INDEFINIDO
+      :tipo: A
+- :classe: XelimTanzania
+  :constante:
+    :nome: XELIM_TANZANIA
+    :dados:
+      :codigo: '946'
+      :nome: XELIM/TANZANIA
+      :simbolo: TZS
+      :codigo_pais: '7803'
+      :pais: TANZANIA, REP.UNIDA DA
+      :tipo: A
+- :classe: LibraSiriaRep
+  :constante:
+    :nome: LIBRA_SIRIA_REP
+    :dados:
+      :codigo: '575'
+      :nome: LIBRA/SIRIA, REP
+      :simbolo: SYP
+      :codigo_pais: '7447'
+      :pais: SIRIA, REPUBLICA ARABE DA
+      :tipo: A
+- :classe: SomQuirguistao
+  :constante:
+    :nome: SOM_QUIRGUISTAO
+    :dados:
+      :codigo: '892'
+      :nome: SOM QUIRGUISTAO
+      :simbolo: KGS
+      :codigo_pais: '6254'
+      :pais: QUIRGUIZ, REPUBLICA
+      :tipo: A
+- :classe: LibraEgito
+  :constante:
+    :nome: LIBRA_EGITO
+    :dados:
+      :codigo: '535'
+      :nome: LIBRA/EGITO
+      :simbolo: EGP
+      :codigo_pais: '2402'
+      :pais: EGITO
+      :tipo: A
+- :classe: DolarFiji
+  :constante:
+    :nome: DOLAR_FIJI
+    :dados:
+      :codigo: '200'
+      :nome: DOLAR FIJI
+      :simbolo: FJD
+      :codigo_pais: '8702'
+      :pais: FIJI
+      :tipo: B
+- :classe: ZlotyPolonia
+  :constante:
+    :nome: ZLOTY_POLONIA
+    :dados:
+      :codigo: '975'
+      :nome: ZLOTY/POLONIA
+      :simbolo: PLN
+      :codigo_pais: '6033'
+      :pais: POLONIA, REPUBLICA DA
+      :tipo: A
+- :classe: FlorimAruba
+  :constante:
+    :nome: FLORIM_ARUBA
+    :dados:
+      :codigo: '328'
+      :nome: FLORIM/ARUBA
+      :simbolo: AWG
+      :codigo_pais: '0655'
+      :pais: ARUBA
+      :tipo: A
+- :classe: DinarIraque
+  :constante:
+    :nome: DINAR_IRAQUE
+    :dados:
+      :codigo: '115'
+      :nome: DINAR/IRAQUE
+      :simbolo: IQD
+      :codigo_pais: '3697'
+      :pais: IRAQUE
+      :tipo: A
+- :classe: RupiaIndia
+  :constante:
+    :nome: RUPIA_INDIA
+    :dados:
+      :codigo: '860'
+      :nome: RUPIA/INDIA
+      :simbolo: INR
+      :codigo_pais: '3611'
+      :pais: INDIA
+      :tipo: A
+- :classe: CediGana
+  :constante:
+    :nome: CEDI_GANA
+    :dados:
+      :codigo: '035'
+      :nome: CEDI GANA
+      :simbolo: GHS
+      :codigo_pais: '2895'
+      :pais: GANA
+      :tipo: A
+- :classe: WonCoreiaSul
+  :constante:
+    :nome: WON_COREIA_SUL
+    :dados:
+      :codigo: '930'
+      :nome: WON/COREIA SUL
+      :simbolo: KRW
+      :codigo_pais: '1902'
+      :pais: COREIA (DO SUL), REPUBLIC
+      :tipo: A
+- :classe: LibraFalkland
+  :constante:
+    :nome: LIBRA_FALKLAND
+    :dados:
+      :codigo: '545'
+      :nome: LIBRA/FALKLAND
+      :simbolo: FKP
+      :codigo_pais: '2550'
+      :pais: FALKLAND (ILHAS MALVINAS)
+      :tipo: B
+- :classe: ShekelIsrael
+  :constante:
+    :nome: SHEKEL_ISRAEL
+    :dados:
+      :codigo: '880'
+      :nome: SHEKEL/ISRAEL
+      :simbolo: ILS
+      :codigo_pais: '3832'
+      :pais: ISRAEL
+      :tipo: A
+- :classe: ColonElSalvador
+  :constante:
+    :nome: COLON_EL_SALVADOR
+    :dados:
+      :codigo: '045'
+      :nome: COLON/EL SALVADOR
+      :simbolo: SVC
+      :codigo_pais: '6874'
+      :pais: EL SALVADOR
+      :tipo: A
+- :classe: TalaSamoaOc
+  :constante:
+    :nome: TALA_SAMOA_OC
+    :dados:
+      :codigo: '911'
+      :nome: TALA SAMOA OC
+      :simbolo: WST
+      :codigo_pais: '6904'
+      :pais: SAMOA
+      :tipo: A
+- :classe: QuachaMalavi
+  :constante:
+    :nome: QUACHA_MALAVI
+    :dados:
+      :codigo: '760'
+      :nome: QUACHA/MALAVI
+      :simbolo: MWK
+      :codigo_pais: '4588'
+      :pais: MALAVI
+      :tipo: A
+- :classe: UnidMonetEurop
+  :constante:
+    :nome: UNID_MONET_EUROP
+    :dados:
+      :codigo: '918'
+      :nome: UNID.MONET.EUROP.
+      :simbolo: XEU
+      :codigo_pais: '0000'
+      :pais: INDEFINIDO
+      :tipo: B
+- :classe: PesoRepDominic
+  :constante:
+    :nome: PESO_REP_DOMINIC
+    :dados:
+      :codigo: '730'
+      :nome: PESO/REP. DOMINIC
+      :simbolo: DOP
+      :codigo_pais: '6475'
+      :pais: REPUBLICA DOMINICANA
+      :tipo: A
+- :classe: ManatArzebaijao
+  :constante:
+    :nome: MANAT_ARZEBAIJAO
+    :dados:
+      :codigo: '607'
+      :nome: MANAT ARZEBAIJAO
+      :simbolo: AZN
+      :codigo_pais: '0736'
+      :pais: AZERBAIJAO, REPUBLICA DO
+      :tipo: A
+- :classe: NairaNigeria
+  :constante:
+    :nome: NAIRA_NIGERIA
+    :dados:
+      :codigo: '630'
+      :nome: NAIRA/NIGERIA
+      :simbolo: NGN
+      :codigo_pais: '5282'
+      :pais: NIGERIA
+      :tipo: A
+- :classe: RubloBelarus
+  :constante:
+    :nome: RUBLO_BELARUS
+    :dados:
+      :codigo: '829'
+      :nome: RUBLO BELARUS
+      :simbolo: BYR
+      :codigo_pais: '0850'
+      :pais: BELARUS, REPUBLICA DA
+      :tipo: A
+- :classe: CoroaSuecaSueci
+  :constante:
+    :nome: COROA_SUECA_SUECI
+    :dados:
+      :codigo: '070'
+      :nome: COROA SUECA/SUECI
+      :simbolo: SEK
+      :codigo_pais: '7641'
+      :pais: SUECIA
+      :tipo: A
+- :classe: NovoSolPeru
+  :constante:
+    :nome: NOVO_SOL_PERU
+    :dados:
+      :codigo: '660'
+      :nome: NOVO SOL/PERU
+      :simbolo: PEN
+      :codigo_pais: '5894'
+      :pais: PERU
+      :tipo: A
+- :classe: DolarBahamas
+  :constante:
+    :nome: DOLAR_BAHAMAS
+    :dados:
+      :codigo: '155'
+      :nome: DOLAR/BAHAMAS
+      :simbolo: BSD
+      :codigo_pais: '0779'
+      :pais: BAHAMAS, ILHAS
+      :tipo: A
+- :classe: IuanRenmimbiChi
+  :constante:
+    :nome: IUAN_RENMIMBI_CHI
+    :dados:
+      :codigo: '795'
+      :nome: IUAN RENMIMBI/CHI
+      :simbolo: CNY
+      :codigo_pais: '1600'
+      :pais: CHINA, REPUBLICA POPULAR
+      :tipo: A
+- :classe: QuachaZambia
+  :constante:
+    :nome: QUACHA_ZAMBIA
+    :dados:
+      :codigo: '765'
+      :nome: QUACHA/ZAMBIA
+      :simbolo: ZMK
+      :codigo_pais: '8907'
+      :pais: ZAMBIA
+      :tipo: A
+- :classe: FrancoSuico
+  :constante:
+    :nome: FRANCO_SUICO
+    :dados:
+      :codigo: '425'
+      :nome: FRANCO SUICO
+      :simbolo: CHF
+      :codigo_pais: '7676'
+      :pais: SUICA
+      :tipo: A
+- :classe: FrancoCongoles
+  :constante:
+    :nome: FRANCO_CONGOLES
+    :dados:
+      :codigo: '363'
+      :nome: FRANCO CONGOLES
+      :simbolo: CDF
+      :codigo_pais: '8885'
+      :pais: CONGO, REPUBLICA DEMOCRAT
+      :tipo: A
+- :classe: DramArmeniaRep
+  :constante:
+    :nome: DRAM_ARMENIA_REP
+    :dados:
+      :codigo: '275'
+      :nome: DRAM ARMENIA REP
+      :simbolo: AMD
+      :codigo_pais: '0647'
+      :pais: ARMENIA, REPUBLICA DA
+      :tipo: A
+- :classe: TugrikMongolia
+  :constante:
+    :nome: TUGRIK_MONGOLIA
+    :dados:
+      :codigo: '915'
+      :nome: TUGRIK/MONGOLIA
+      :simbolo: MNT
+      :codigo_pais: '4979'
+      :pais: MONGOLIA
+      :tipo: A
+- :classe: KunaCroacia
+  :constante:
+    :nome: KUNA_CROACIA
+    :dados:
+      :codigo: '779'
+      :nome: KUNA/CROACIA
+      :simbolo: HRK
+      :codigo_pais: '1953'
+      :pais: CROACIA (REPUBLICA DA)
+      :tipo: A
+- :classe: LeoneSerraLeoa
+  :constante:
+    :nome: LEONE_SERRA_LEOA
+    :dados:
+      :codigo: '500'
+      :nome: LEONE/SERRA LEOA
+      :simbolo: SLL
+      :codigo_pais: '7358'
+      :pais: SERRA LEOA
+      :tipo: A
+- :classe: XelimQuenia
+  :constante:
+    :nome: XELIM_QUENIA
+    :dados:
+      :codigo: '950'
+      :nome: XELIM/QUENIA
+      :simbolo: KES
+      :codigo_pais: '6238'
+      :pais: QUENIA
+      :tipo: A
+- :classe: QuiateBirmania
+  :constante:
+    :nome: QUIATE_BIRMANIA
+    :dados:
+      :codigo: '775'
+      :nome: QUIATE/BIRMANIA
+      :simbolo: MMK
+      :codigo_pais: '0930'
+      :pais: MIANMAR (BIRMANIA)
+      :tipo: A
+- :classe: WonCoreiaNorte
+  :constante:
+    :nome: WON_COREIA_NORTE
+    :dados:
+      :codigo: '925'
+      :nome: WON/COREIA NORTE
+      :simbolo: KPW
+      :codigo_pais: '1872'
+      :pais: COREIA (DO NORTE), REP.PO
+      :tipo: A
+- :classe: CoroaDinamDinam
+  :constante:
+    :nome: COROA_DINAM_DINAM
+    :dados:
+      :codigo: '055'
+      :nome: COROA DINAM/DINAM
+      :simbolo: DKK
+      :codigo_pais: '2321'
+      :pais: DINAMARCA
+      :tipo: A
+- :classe: NovaLibraSudane
+  :constante:
+    :nome: NOVA_LIBRA_SUDANE
+    :dados:
+      :codigo: '134'
+      :nome: NOVA LIBRA SUDANE
+      :simbolo: SDG
+      :codigo_pais: '7595'
+      :pais: SUDAO
+      :tipo: A
+- :classe: KinaPapuaNGuin
+  :constante:
+    :nome: KINA_PAPUA_N_GUIN
+    :dados:
+      :codigo: '778'
+      :nome: KINA/PAPUA N GUIN
+      :simbolo: PGK
+      :codigo_pais: '5452'
+      :pais: PAPUA NOVA GUINE
+      :tipo: B
+- :classe: PesoFilipinas
+  :constante:
+    :nome: PESO_FILIPINAS
+    :dados:
+      :codigo: '735'
+      :nome: PESO/FILIPINAS
+      :simbolo: PHP
+      :codigo_pais: '2674'
+      :pais: FILIPINAS
+      :tipo: A
+- :classe: DolarDosEua
+  :constante:
+    :nome: DOLAR_DOS_EUA
+    :dados:
+      :codigo: '220'
+      :nome: DOLAR DOS EUA
+      :simbolo: USD
+      :codigo_pais: '2496'
+      :pais: ESTADOS UNIDOS
+      :tipo: A
+- :classe: RialCatar
+  :constante:
+    :nome: RIAL_CATAR
+    :dados:
+      :codigo: '800'
+      :nome: RIAL/CATAR
+      :simbolo: QAR
+      :codigo_pais: '1546'
+      :pais: CATAR
+      :tipo: A
+- :classe: XelimUganda
+  :constante:
+    :nome: XELIM_UGANDA
+    :dados:
+      :codigo: '955'
+      :nome: XELIM/UGANDA
+      :simbolo: UGX
+      :codigo_pais: '8338'
+      :pais: UGANDA
+      :tipo: A
+- :classe: DolarBelize
+  :constante:
+    :nome: DOLAR_BELIZE
+    :dados:
+      :codigo: '180'
+      :nome: DOLAR/BELIZE
+      :simbolo: BZD
+      :codigo_pais: '0884'
+      :pais: BELIZE
+      :tipo: A
+- :classe: Iene
+  :constante:
+    :nome: IENE
+    :dados:
+      :codigo: '470'
+      :nome: IENE
+      :simbolo: JPY
+      :codigo_pais: '3999'
+      :pais: JAPAO
+      :tipo: A
+- :classe: LilangeniSuazil
+  :constante:
+    :nome: LILANGENI_SUAZIL
+    :dados:
+      :codigo: '585'
+      :nome: LILANGENI/SUAZIL
+      :simbolo: SZL
+      :codigo_pais: '7544'
+      :pais: SUAZILANDIA
+      :tipo: A
+- :classe: PesoGuineBissau
+  :constante:
+    :nome: PESO_GUINE_BISSAU
+    :dados:
+      :codigo: '738'
+      :nome: PESO/GUINE BISSAU
+      :simbolo: GWP
+      :codigo_pais: '3344'
+      :pais: GUINE-BISSAU
+      :tipo: A
+- :classe: NovoDolarTaiwan
+  :constante:
+    :nome: NOVO_DOLAR_TAIWAN
+    :dados:
+      :codigo: '640'
+      :nome: NOVO DOLAR/TAIWAN
+      :simbolo: TWD
+      :codigo_pais: '1619'
+      :pais: FORMOSA (TAIWAN)
+      :tipo: A
