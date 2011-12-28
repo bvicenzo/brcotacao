@@ -4,7 +4,8 @@ $:.unshift(File.dirname(__FILE__)) unless
 
 require 'net/http'
 require 'ostruct'
-%w(moedas version constantes errors).each {|req| require File.dirname(__FILE__) + "/brcotacao/#{req}"}
+require 'yaml'
+%w(configuracao moedas version errors).each {|req| require File.dirname(__FILE__) + "/brcotacao/#{req}"}
 
 module BrCotacao
 end
