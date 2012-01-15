@@ -1,6 +1,13 @@
 # encoding: utf-8
-$:.unshift(File.dirname(__FILE__)) unless
-  $:.include?(File.dirname(__FILE__)) || $:.include?(File.expand_path(File.dirname(__FILE__)))
+
+DIRETORIO_RAIZ = "#{File.dirname(__FILE__)}/.."
+
+$:.unshift(DIRETORIO_RAIZ) unless
+  $:.include?(DIRETORIO_RAIZ) || $:.include?(File.expand_path(DIRETORIO_RAIZ))
+
+diretorio_libs = File.join(DIRETORIO_RAIZ, 'lib', 'brcotacao')
+$:.unshift(diretorio_libs) unless
+  $:.include?(diretorio_libs) || $:.include?(File.expand_path(diretorio_libs))
 
 require 'net/http'
 require 'ostruct'
