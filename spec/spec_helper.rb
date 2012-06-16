@@ -1,6 +1,6 @@
 require 'brcotacao'
 require 'date'
-require 'shared_tests/moedas_spec'
+require 'shared_tests/moedas'
 
 
 def fixure(nome)
