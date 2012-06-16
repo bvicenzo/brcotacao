@@ -1,0 +1,4 @@
+v0.0.2
+  Segunda versão com testes em rspec e classes criadas dinamicamente
+v0.0.1
+  Primeira versão com dados de compra e venda para várias moedas
