@@ -21,7 +21,7 @@ end
 shared_examples_for 'dia sem cotacao' do |metodo|
   context "mas a moeda nao tem cotacao no dia procurado" do
     before do
-       Net::HTTP.any_instance.stub(:get).and_return(mock(:msg => 'fail', :body => ''))
+       Net::HTTP.any_instance.stub(:get).and_return(double(:msg => 'fail', :body => ''))
     end
     let(:data_pesquisada) { Date.new(2011, 12, 10) }
     it_should_behave_like 'lanca erro', metodo, BrCotacao::Errors::CotacaoNaoEncontradaError

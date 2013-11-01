@@ -16,7 +16,7 @@ describe BrCotacao::RialOma do
         let(:valor_esperado) { {:compra => 4.7061, :venda => 4.7201} }
 
         before do
-          Net::HTTP.any_instance.stub(:get).and_return(mock(:msg => 'OK', :body => fixure('20111209.csv')))
+          Net::HTTP.any_instance.stub(:get).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :cotacao
@@ -37,7 +37,7 @@ describe BrCotacao::RialOma do
         let(:valor_esperado) { 4.7061 }
 
         before do
-          Net::HTTP.any_instance.stub(:get).and_return(mock(:msg => 'OK', :body => fixure('20111209.csv')))
+          Net::HTTP.any_instance.stub(:get).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :compra
@@ -58,7 +58,7 @@ describe BrCotacao::RialOma do
         let(:valor_esperado) { 4.7201 }
 
         before do
-          Net::HTTP.any_instance.stub(:get).and_return(mock(:msg => 'OK', :body => fixure('20111209.csv')))
+          Net::HTTP.any_instance.stub(:get).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :venda
