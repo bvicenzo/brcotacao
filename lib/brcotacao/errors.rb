@@ -14,11 +14,11 @@ module BrCotacao
     # * por por alguma mudança no endereço do serviço;
     # * ou pelo abandono do serviço por parte do Banco Central.
     class ConexaoMalSucedidaError < RuntimeError
-    
+
       def initialize
         super("A Conexão não ocorreu corretamente.")
       end
-    
+
     end
 
     # Classe usada para lançar erros para quando a biblioteca não receber do Banco central
@@ -30,7 +30,15 @@ module BrCotacao
       def initialize(data)
         super("A cotação não foi encontrada para o dia #{data.strftime('%d/%m/%Y')}.")
       end
-  
+
+    end
+
+    class CotacaoAgoraNaoEncontradaError < RuntimeError
+
+      def initialize(data)
+        super("A cotação não está disponível para o dia #{data.strftime('%d/%m/%Y')}, #{data.strftime('%H:%M')}.")
+      end
+
     end
 
   end

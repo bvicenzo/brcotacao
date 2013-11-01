@@ -1,4 +1,6 @@
+# encoding: utf-8
 require 'spec_helper'
+
 
 describe BrCotacao::DolarDosEua do
   subject { BrCotacao::DolarDosEua.new }
@@ -64,5 +66,9 @@ describe BrCotacao::DolarDosEua do
         it_should_behave_like 'dia com cotacao', :venda
       end
     end
+  end
+
+  describe '.cotacao_agora' do
+    it_should_behave_like 'cotacao tempo real', :cotacao_agora
   end
 end
