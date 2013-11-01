@@ -1,3 +1,5 @@
+v0.0.3
+  Adicionado cotação em tempo real para as moedas
 v0.0.2
   Segunda versão com testes em rspec e classes criadas dinamicamente
 v0.0.1
