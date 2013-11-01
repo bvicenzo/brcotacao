@@ -65,4 +65,8 @@ describe BrCotacao::GuilderAntilhas do
       end
     end
   end
+
+  describe '.cotacao_agora' do
+    it_should_behave_like 'cotacao tempo real', :cotacao_agora
+  end
 end
