@@ -11,20 +11,32 @@ Sendo que as moedas com data de Exclusão do Ptax não entraram na gem.
 
 ## Como instalar?
 
+```shell
 gem install brcotacao
+```
 
-## como usar em um programa ruby?
+##### Se você usar o Bundler
+Adicione a linha abaixo no arquivo `Gemfile`
 
-require 'rubygems' (ruby 1.8.7)
+```shell
+gem 'brcotacao'
 
+```
+E então execute:
+
+```shell
+bundle install
+```
+
+## Como usar
+
+```ruby
 require 'brcotacao'
-
 require 'date' # pode usar qualquer metodo que retorne a data que precise.
 
 uma_data = Date.new(2011, 12, 9) # data de fechamento qualquer
 
 dola_americano = BrCotacao::DolarDosEua.new
-
 
 dolar_americano.cotacao(uma_data) # => {:compra => 1.8123, :venda => 1.813}
 
@@ -34,8 +46,7 @@ dolar_americano.venda(uma_data)   # => 1.813
 
 dolar_americano.compra_agora      # => 1.902
 
-
-euro           = BrCotacao::Euro.new
+euro = BrCotacao::Euro.new
 
 euro.cotacao(uma_data) # => {:compra => 2.423, :venda => 2.4242}
 
@@ -44,7 +55,7 @@ euro.compra(uma_data)  # => 2.423
 euro.venda(uma_data)   # => 2.4242
 
 euro.compra_agora      # => 2.4039
-
+```
 
 ## Documentação
  A documentação, atualmente, encontra-se em http://brcotacaodoc.brunovicenzo.com/
