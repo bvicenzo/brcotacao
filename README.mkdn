@@ -4,10 +4,10 @@
 
 Basicamente, é um conjunto de classes que permite obter os valores de compra e venda de uma determinada moeda, em uma determinada data em reais.
 
-## Quais são as moedas disponiveis?
+## Quais são as moedas disponíveis?
 
 São as moedas disponibilizadas pelo Banco Central do Brasil na tabela encontrada no seguinte endereço: http://www4.bcb.gov.br/pec/taxas/batch/tabmoedas.asp?id=tabmoeda
-Sendo que as moedas com data de Exclusão do Ptax não entraram na gem.
+Sendo que as moedas com data de Exclusão do Ptax não estão na gem.
 
 ## Como instalar?
 
