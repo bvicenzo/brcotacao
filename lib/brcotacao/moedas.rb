@@ -2,6 +2,7 @@
 require 'csv'
 require 'time'
 require 'json'
+
 module BrCotacao
 
 
@@ -58,8 +59,8 @@ module BrCotacao
     def cotacao_agora
       endereco             = URI("#{FONTE_INFORMACAO_TEMPO_REAL}symbols=#{dados.simbolo}BRL=X")
       resposta             = Net::HTTP.get_response(endereco)
-
       raise BrCotacao::Errors::CotacaoAgoraNaoEncontradaError.new(Time.now) unless resposta.msg.eql? 'OK'
+      
       result = JSON.parse(resposta.body)
       cotacao = result['quoteResponse']['result'].first
 
