@@ -41,7 +41,7 @@ shared_examples_for 'cotacao tempo real' do |metodo|
     let(:erro)   { BrCotacao::Errors::CotacaoAgoraNaoEncontradaError }
 
     before do
-      Net::HTTP.any_instance.stub(:get).and_return(double(:msg => 'ERROR'))
+      Net::HTTP.stub(:get_response).and_return(double(:msg => 'ERROR'))
     end
 
     it 'deve lançar um erro' do
@@ -51,15 +51,15 @@ shared_examples_for 'cotacao tempo real' do |metodo|
 
   context 'sistema de cotação está funcionando' do
     before do
-      Net::HTTP.any_instance.stub(:get).and_return(double(:msg => 'OK', :body => "MOEDA1 to MOEDA2,0.9426,11/1/2013,11:33am"))
+      Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('cotacao.json')))
     end
 
     it "deve retornar a cotacao em um hash" do
-      subject.send(metodo)[:compra].should eql(0.9426)
+      subject.send(metodo)[:compra].should eql(3.7522)
     end
 
     it "deve retornar a data em um hash" do
-      subject.send(metodo)[:data].should eql(Time.parse('2013-11-01 11:33am -0400'))
+      subject.send(metodo)[:data].should eql(Time.parse('2018-10-10 23:59:57 -0300'))
     end
   end
 end
