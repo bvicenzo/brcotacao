@@ -44,7 +44,7 @@ dolar_americano.compra(uma_data)  # => 1.8123
 
 dolar_americano.venda(uma_data)   # => 1.813
 
-dolar_americano.cotacao_agora     # => 1.902
+dolar_americano.cotacao_agora     # => {:compra=>3.7522, :data=>2018-10-10 23:59:57 -0300}
 
 euro = BrCotacao::Euro.new
 
@@ -54,7 +54,7 @@ euro.compra(uma_data)  # => 2.423
 
 euro.venda(uma_data)   # => 2.4242
 
-euro.cotacao_agora     # => 2.4039
+euro.cotacao_agora     # => {:compra=>2.4039, :data=>2018-10-10 23:59:57 -0300}
 ```
 
 ## Documentação
