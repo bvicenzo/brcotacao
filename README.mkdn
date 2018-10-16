@@ -54,8 +54,6 @@ euro.compra(uma_data)  # => 2.423
 
 euro.venda(uma_data)   # => 2.4242
 
+
 euro.cotacao_agora     # => {:compra=>2.4039, :data=>2018-10-10 23:59:57 -0300}
 ```
-
-## Documentação
- A documentação, atualmente, encontra-se em http://brcotacaodoc.brunovicenzo.com/
