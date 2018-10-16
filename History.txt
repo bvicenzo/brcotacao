@@ -1,3 +1,5 @@
+v0.0.4
+  Removendo cotação em tempo real para as moedas (Yahoo Finanças - deprecated)
 v0.0.3
   Adicionado cotação em tempo real para as moedas
 v0.0.2
