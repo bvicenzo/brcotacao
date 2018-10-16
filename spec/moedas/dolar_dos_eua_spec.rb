@@ -18,7 +18,7 @@ describe BrCotacao::DolarDosEua do
         let(:valor_esperado) { {:compra => 1.8123, :venda => 1.813} }
 
         before do
-          Net::HTTP.any_instance.stub(:get).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
+          Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :cotacao
@@ -39,7 +39,7 @@ describe BrCotacao::DolarDosEua do
         let(:valor_esperado) { 1.8123 }
 
         before do
-          Net::HTTP.any_instance.stub(:get).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
+          Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :compra
@@ -60,7 +60,7 @@ describe BrCotacao::DolarDosEua do
         let(:valor_esperado) { 1.813 }
 
         before do
-          Net::HTTP.any_instance.stub(:get).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
+          Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :venda
