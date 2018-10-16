@@ -16,7 +16,7 @@ describe BrCotacao::LitaLituania do
         let(:valor_esperado) { {:compra => 0.7015, :venda => 0.7019} }
 
         before do
-          Net::HTTP.any_instance.stub(:get).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
+          Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :cotacao
@@ -37,7 +37,7 @@ describe BrCotacao::LitaLituania do
         let(:valor_esperado) { 0.7015 }
 
         before do
-          Net::HTTP.any_instance.stub(:get).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
+          Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :compra
@@ -58,15 +58,11 @@ describe BrCotacao::LitaLituania do
         let(:valor_esperado) { 0.7019 }
 
         before do
-          Net::HTTP.any_instance.stub(:get).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
+          Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :venda
       end
     end
-  end
-
-  describe '.cotacao_agora' do
-    it_should_behave_like 'cotacao tempo real', :cotacao_agora
   end
 end

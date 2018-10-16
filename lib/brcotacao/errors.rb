@@ -33,13 +33,5 @@ module BrCotacao
 
     end
 
-    class CotacaoAgoraNaoEncontradaError < RuntimeError
-
-      def initialize(data)
-        super("A cotação não está disponível para o dia #{data.strftime('%d/%m/%Y')}, #{data.strftime('%H:%M')}.")
-      end
-
-    end
-
   end
 end

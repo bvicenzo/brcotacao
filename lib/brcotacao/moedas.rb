@@ -13,7 +13,6 @@ module BrCotacao
   # Author:: Bruno Vicenzo
   # Licença:: GPL
   module Moeda
-
     FONTE_INFORMACAO            = 'http://www4.bcb.gov.br/Download/fechamento/'.freeze
     FONTE_INFORMACAO_TEMPO_REAL = 'https://query1.finance.yahoo.com/v7/finance/quote?'
 
@@ -95,9 +94,9 @@ module BrCotacao
 
     def busca_dados(data_pesquisa)
       arquivo_baixar       = data_pesquisa.strftime("%Y%m%d.csv")
-      endereco             = URI.parse(FONTE_INFORMACAO + arquivo_baixar)
-      conexao              = Net::HTTP.new(endereco.host)
-      cotacoes             = conexao.get(endereco.path)
+      endereco             = URI(FONTE_INFORMACAO + arquivo_baixar)
+      cotacoes             = Net::HTTP.get_response(endereco)
+
       raise BrCotacao::Errors::CotacaoNaoEncontradaError.new(data_pesquisa) unless cotacoes.msg.eql? 'OK'
 
       cotacoes.body
