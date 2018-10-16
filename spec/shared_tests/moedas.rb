@@ -35,3 +35,31 @@ shared_examples_for 'dia com cotacao' do |metodo|
     subject.send(metodo, data_pesquisada).should eq(valor_esperado)
   end
 end
+
+shared_examples_for 'cotacao tempo real' do |metodo|
+  context 'sistema de cotação não está funcionando' do
+    let(:erro)   { BrCotacao::Errors::CotacaoAgoraNaoEncontradaError }
+
+    before do
+      Net::HTTP.stub(:get_response).and_return(double(:msg => 'ERROR'))
+    end
+
+    it 'deve lançar um erro' do
+      expect { subject.send metodo }.to raise_error erro
+    end
+  end
+
+  context 'sistema de cotação está funcionando' do
+    before do
+      Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('cotacao.json')))
+    end
+
+    it "deve retornar a cotacao em um hash" do
+      subject.send(metodo)[:compra].should eql(3.7522)
+    end
+
+    it "deve retornar a data em um hash" do
+      subject.send(metodo)[:data].should eql(Time.parse('2018-10-10 23:59:57 -0300'))
+    end
+  end
+end

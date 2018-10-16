@@ -1,6 +1,8 @@
 # ecoding: utf-8
 require 'csv'
 require 'time'
+require 'json'
+
 module BrCotacao
 
 
@@ -11,7 +13,8 @@ module BrCotacao
   # Author:: Bruno Vicenzo
   # Licença:: GPL
   module Moeda
-    FONTE_INFORMACAO = 'http://www4.bcb.gov.br/Download/fechamento/'.freeze
+    FONTE_INFORMACAO            = 'http://www4.bcb.gov.br/Download/fechamento/'.freeze
+    FONTE_INFORMACAO_TEMPO_REAL = 'https://query1.finance.yahoo.com/v7/finance/quote?'
 
     POSICAO_CODIGO_MOEDA = 1
     POSICAO_VALOR_COMPRA = 4
@@ -48,6 +51,19 @@ module BrCotacao
       cotacoes_moeda = dados_cotacoes(data_pesquisa).detect{|dado| dado.first.eql? self.dados.codigo}
 
       cotacoes_moeda.nil? ? nil : {:compra => cotacoes_moeda[1].gsub(',', '.').to_f, :venda => cotacoes_moeda[2].gsub(',', '.').to_f}
+    end
+
+    # Devolve o valor da cotação em tempo real de acordo com o serviço do Yahoo!.
+    # É retornado um hash contendo o valor de compra da moeda e a data que foi feita a consulta (dia e horário)
+    def cotacao_agora
+      endereco             = URI("#{FONTE_INFORMACAO_TEMPO_REAL}symbols=#{dados.simbolo}BRL=X")
+      resposta             = Net::HTTP.get_response(endereco)
+      raise BrCotacao::Errors::CotacaoAgoraNaoEncontradaError.new(Time.now) unless resposta.msg.eql? 'OK'
+      
+      result = JSON.parse(resposta.body)
+      cotacao = result['quoteResponse']['result'].first
+
+      {:compra => cotacao['regularMarketPrice'].to_f, :data => Time.at(cotacao['regularMarketTime'])}
     end
 
     private
