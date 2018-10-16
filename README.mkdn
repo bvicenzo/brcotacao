@@ -1,5 +1,7 @@
 # Br Cotação
 
+[![Build Status](https://travis-ci.com/bvicenzo/brcotacao.svg?branch=master)](https://travis-ci.com/bvicenzo/brcotacao)
+
 ## o que é?
 
 Basicamente, é um conjunto de classes que permite obter os valores de compra e venda de uma determinada moeda, em uma determinada data em reais.
