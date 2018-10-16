@@ -11,9 +11,7 @@ module BrCotacao
   # Author:: Bruno Vicenzo
   # Licença:: GPL
   module Moeda
-
-    FONTE_INFORMACAO            = 'https://www4.bcb.gov.br/Download/fechamento/'.freeze
-    FONTE_INFORMACAO_TEMPO_REAL = 'http://download.finance.yahoo.com/d/quotes.body?'
+    FONTE_INFORMACAO = 'http://www4.bcb.gov.br/Download/fechamento/'.freeze
 
     POSICAO_CODIGO_MOEDA = 1
     POSICAO_VALOR_COMPRA = 4
@@ -50,20 +48,6 @@ module BrCotacao
       cotacoes_moeda = dados_cotacoes(data_pesquisa).detect{|dado| dado.first.eql? self.dados.codigo}
 
       cotacoes_moeda.nil? ? nil : {:compra => cotacoes_moeda[1].gsub(',', '.').to_f, :venda => cotacoes_moeda[2].gsub(',', '.').to_f}
-    end
-
-    # Devolve o valor da cotação em tempo real de acordo com o serviço do Yahoo!.
-    # É retornado um hash contendo o valor de compra da moeda e a data que foi feita a consulta (dia e horário)
-    def cotacao_agora
-      endereco             = URI.parse("#{FONTE_INFORMACAO_TEMPO_REAL}s=#{dados.simbolo}BRL=X&f=nl1d1t1")
-      conexao              = Net::HTTP.new(endereco.host)
-      resposta             = conexao.get("#{endereco.path}?#{endereco.query}")
-      raise BrCotacao::Errors::CotacaoAgoraNaoEncontradaError.new(Time.now) unless resposta.msg.eql? 'OK'
-
-      cotacao = CSV.parse(resposta.body).first
-      data = Date.strptime(cotacao[2], '%m/%d/%Y').strftime('%Y-%m-%d')
-
-      {:compra => cotacao[1].to_f, :data => Time.parse("#{data} #{cotacao[3]} -0400")}
     end
 
     private
