@@ -16,7 +16,7 @@ describe BrCotacao::NakfaEritreia do
         let(:valor_esperado) { {:compra => 0.1208, :venda => 0.1209} }
 
         before do
-          Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
+          expect(Net::HTTP).to receive(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :cotacao
@@ -37,7 +37,7 @@ describe BrCotacao::NakfaEritreia do
         let(:valor_esperado) { 0.1208 }
 
         before do
-          Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
+          expect(Net::HTTP).to receive(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :compra
@@ -58,7 +58,7 @@ describe BrCotacao::NakfaEritreia do
         let(:valor_esperado) { 0.1209 }
 
         before do
-          Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
+          expect(Net::HTTP).to receive(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :venda

@@ -16,7 +16,7 @@ describe BrCotacao::GourdeHaiti do
         let(:valor_esperado) { {:compra => 0.04411, :venda => 0.04579} }
 
         before do
-          Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
+          expect(Net::HTTP).to receive(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :cotacao
@@ -37,7 +37,7 @@ describe BrCotacao::GourdeHaiti do
         let(:valor_esperado) { 0.04411 }
 
         before do
-          Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
+          expect(Net::HTTP).to receive(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :compra
@@ -58,7 +58,7 @@ describe BrCotacao::GourdeHaiti do
         let(:valor_esperado) { 0.04579 }
 
         before do
-          Net::HTTP.stub(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
+          expect(Net::HTTP).to receive(:get_response).and_return(double(:msg => 'OK', :body => fixure('20111209.csv')))
         end
 
         it_should_behave_like 'dia com cotacao', :venda
